@@ -10,12 +10,12 @@ while(r == True):
         sum += bil
         jumlah += 1
         
-        opsi = input('Tambah Lagi ? (y/n) : ')
+        pilihan = input('Tambah Lagi ? (y/n) : ')
 
-        if(opsi == 'y') :
+        if(pilihan == 'y') :
             r = True
             
-        elif(opsi == 'n') :
+        elif(pilihan == 'n') :
             r = False
 
     except ValueError:
